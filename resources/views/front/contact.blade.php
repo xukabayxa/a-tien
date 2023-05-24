@@ -1,8 +1,6 @@
 @extends('front.layouts.master')
 @section('css')
-    <link rel="stylesheet" href="{{ asset('site/css/product-category.css') }}">
-    <link rel="stylesheet" href="{{ asset('site/css/product-category-main.css') }}">
-    <link rel="stylesheet" href="{{ asset('site/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('site/css/lienhe.css') }}">
     <link rel="stylesheet" href="{{ asset('site/css/loading.css') }}">
 
    <style>
