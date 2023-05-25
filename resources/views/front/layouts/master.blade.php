@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi-vn" xml:lang="vi-vn">
 <head>
-    <title>@yield('title')</title>
+    @yield('title')
     @include('front.partials.head')
     @yield('css')
 </head>

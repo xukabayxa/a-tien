@@ -1,5 +1,7 @@
 @extends('front.layouts.master')
-
+@section('title')
+    <title>{{ "TGNIMEX - " . ucfirst($_SERVER['HTTP_HOST']) }}</title>
+@endsection
 @section('content')
     <section class="awe-section-1" id="awe-section-1">
 

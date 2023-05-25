@@ -549,15 +549,15 @@
 <div class="addThis_listSharing hidden-xs ">
     <ul class="addThis_listing">
         <li class="addThis_item">
-            <a class="addThis_item--icon" href="tel:0977338686" rel="nofollow" aria-label="phone">
+            <a class="addThis_item--icon" href="tel:{{$config->hotline}}" rel="nofollow" aria-label="phone">
 
                 <img src="https://file.hstatic.net/200000342937/file/hotline-tk_3797f4f9227b476e9ed195c6ee344e25.gif"/>
 
-                <span class="tooltip-text">Hotline sỉ</span>
+                <span class="tooltip-text">Hotline</span>
             </a>
         </li>
         <li class="addThis_item">
-            <a class="addThis_item--icon" href="https://zalo.me/0977338686" target="_blank" rel="nofollow noreferrer"
+            <a class="addThis_item--icon" href="https://zalo.me/{{$config->zalo}}" target="_blank" rel="nofollow noreferrer"
                aria-label="zalo">
 
                 <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -591,7 +591,7 @@
 
 
         <li class="addThis_item">
-            <a class="addThis_item--icon" rel="nofollow noreferrer" target="_blank" href="https://fb.com/antfarm.com.vn"
+            <a class="addThis_item--icon" rel="nofollow noreferrer" target="_blank" href="#"
                aria-label="email">
 
                 <img src="https://file.hstatic.net/200000342937/file/ts-fb-icon_95793a59510e4389b65a6e7d660fa17c.png"/>

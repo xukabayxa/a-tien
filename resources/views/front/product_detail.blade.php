@@ -3,6 +3,9 @@
     <link rel="stylesheet" href="{{ asset('site/css/product-category.css') }}">
     <link rel="stylesheet" href="{{ asset('site/css/product-category-main.css') }}">
 @endsection
+@section('title')
+    <title>{{ "TGNIMEX - " . ucfirst($_SERVER['HTTP_HOST']) }}</title>
+@endsection
 @section('content')
     <section class="bread_crumb py-4">
         <div class="container">

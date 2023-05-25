@@ -1,4 +1,7 @@
 @extends('front.layouts.master')
+@section('title')
+    <title>{{ "Tin tức - " . ucfirst($_SERVER['HTTP_HOST']) }}</title>
+@endsection
 @section('content')
 
     <section class="bread_crumb py-4">
