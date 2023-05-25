@@ -114,8 +114,7 @@
                                 <h3 class="hastog"><span>GIỚI THIỆU</span></h3>
 
                                 <div class="footercontetnt">
-                                    ANT FARM - Agricultural products import and export, has been present in many market
-                                    such as: Southeast Asia, Middle East, Europe, USA, Canada, Australia.
+                                   {!! $config->web_des !!}
                                 </div>
                             </div>
                         </div>
@@ -127,19 +126,15 @@
 
                                 <div class="footercontent2">
                                     <div class="footercontent21">
-                                        Tòa nhà Narime, Đoàn Như Hài, Phường 13, Quận 4, Thành phố Hồ Chí Minh, Việt
-                                        Nam.
+                                        {{$config->address_company}}
 
                                     </div>
                                     <div class="footercontent22">
+                                        ĐT: {{$config->zalo}}<br>
 
-                                        Tel: (+84) 28 6261 1411<br>
-                                        Export: (+84) 989 101 131<br>
-                                        Import: (+84) 366 202 333
-                                    </div>
                                     <div class="footercontent23">
 
-                                        info@antfarm.com.vn
+                                        {{$config->email}}
                                     </div>
 
 
@@ -148,15 +143,15 @@
 
                             </div>
                         </div>
+                        </div>
 
                         <div class="col-xs-12 col-sm-6 col-lg-3 colfooter3">
                             <div class="footer-widget">
                                 <h3 class="hastog"><span>SẢN PHẨM</span></h3>
                                 <ul class="list-menu list-blogs">
 
-                                    <li><a href="/collections/nong-san-viet-ant-farm?view=vi">Xuất khẩu</a></li>
+                                    <li><a href="{{route('front.category-product-get')}}">Danh mục sản phẩm</a></li>
 
-                                    <li><a href="/collections/rau-sach-nhap-khau-ant-farm?view=vi">Nhập khẩu</a></li>
 
                                 </ul>
                             </div>
@@ -165,7 +160,7 @@
 
                         <div class="col-xs-12 col-sm-6 col-lg-3 colfooter4">
                             <div class="footer-widget">
-                                <h3 class="margin-bottom-20 hastog"><span>SOCIAL</span></h3>
+                                <h3 class="margin-bottom-20 hastog"><span>Liên kết</span></h3>
                                 <div class="list-menusocail">
 
 
@@ -173,7 +168,7 @@
                                         <div>
                                             <i class="fa fa-facebook" aria-hidden="true"></i>
                                         </div>
-                                        <div><a href="https://www.facebook.com/antfarm.com.vn">Facebook</a></div>
+                                        <div><a href="{{$config->facebook}}">Facebook</a></div>
                                     </div>
 
 
@@ -181,23 +176,14 @@
                                         <div>
                                             <i class="fa fa-twitter" aria-hidden="true"></i>
                                         </div>
-                                        <div><a href="https://twitter.com/Antfarm_Vietnam">Twiter</a></div>
+                                        <div><a href="{{$config->twitter}}">Twiter</a></div>
                                     </div>
-
-
-                                    <div class="flexcoialitem">
-                                        <div>
-                                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                                        </div>
-                                        <div><a href="#33">Dribble</a></div>
-                                    </div>
-
 
                                     <div class="flexcoialitem">
                                         <div>
                                             <i class="fa fa-instagram" aria-hidden="true"></i>
                                         </div>
-                                        <div><a href="https://www.instagram.com/antfarm.officialvietnam/">Instagram</a>
+                                        <div><a href="{{$config->instagram}}">Instagram</a>
                                         </div>
                                     </div>
 
@@ -214,7 +200,7 @@
                 <div class="inner clearfix">
                     <div class="row">
                         <div class="col-md-6 text-center text-lg-left">
-                            <span>© Bản quyền thuộc về <b>Ant Farm 2023</b></span>
+                            <span>© Bản quyền thuộc về <b>TGNIMEX</b></span>
 
                         </div>
 

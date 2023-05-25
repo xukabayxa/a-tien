@@ -40,7 +40,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-5">
                                         <div class="blog-item-thumbnail">
-                                            <a href="/blogs/news/tung-bung-le-hoi-lon-cung-ant-farm-va-ot-chuong-han-quoc">
+                                            <a href="{{route('front.get-post-detail', $post->slug)}}">
 
                                                 <img src="{{$post->image->path ?? ''}}" alt="{{$post->name}}">
 

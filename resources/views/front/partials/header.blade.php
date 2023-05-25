@@ -157,7 +157,7 @@
                                 <li class="nav-item "><a class="nav-link" href="{{route('front.get-posts')}}">Tin tức</a></li>
 
 
-                                <li class="nav-item "><a class="nav-link" href="">Liên hệ</a></li>
+                                <li class="nav-item "><a class="nav-link" href="{{route('front.contact')}}">Liên hệ</a></li>
 
 
                             </ul>

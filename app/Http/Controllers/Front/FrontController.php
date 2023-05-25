@@ -50,7 +50,7 @@ class FrontController extends Controller
     {
         $config = Config::query()->first();
         $banners = Banner::query()->where('page', 'home_page')->get();
-        $posts = Post::query()->latest()->take(4)->get();
+        $posts = Post::query()->latest()->take(5)->get();
 
         // lấy các sản phẩm ghim ngoài trang chủ
         $products = Product::query()->get();

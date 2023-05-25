@@ -142,44 +142,44 @@
                 <div class="myflexnat">
 
 
-                    <div>
-                        <a href="{{route('front.category-product-get')}}">
-                            <picture>
-                                <source media="(min-width:768px)"
-                                        srcset="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanh1.png?v=139">
-                                <source media="(max-width:767px)"
-                                        srcset="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanhmobile1.png?v=139">
-                                <img src="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanh1.png?v=139"
-                                     alt="">
-                            </picture>
+{{--                    <div>--}}
+{{--                        <a href="{{route('front.category-product-get')}}">--}}
+{{--                            <picture>--}}
+{{--                                <source media="(min-width:768px)"--}}
+{{--                                        srcset="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanh1.png?v=139">--}}
+{{--                                <source media="(max-width:767px)"--}}
+{{--                                        srcset="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanhmobile1.png?v=139">--}}
+{{--                                <img src="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanh1.png?v=139"--}}
+{{--                                     alt="">--}}
+{{--                            </picture>--}}
 
-                            <span class="boxtionmaybe">
-						<span class="boxtionmaybe_1"></span>
-						<span class="boxtionmaybe_2"></span>
+{{--                            <span class="boxtionmaybe">--}}
+{{--						<span class="boxtionmaybe_1"></span>--}}
+{{--						<span class="boxtionmaybe_2"></span>--}}
 
-					</span>
-                        </a>
-                    </div>
+{{--					</span>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
 
 
-                    <div>
-                        <a href="{{route('front.category-product-get')}}">
-                            <picture>
-                                <source media="(min-width:768px)"
-                                        srcset="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanh2.png?v=139">
-                                <source media="(max-width:767px)"
-                                        srcset="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanhmobile2.png?v=139">
-                                <img src="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanh2.png?v=139"
-                                     alt="">
-                            </picture>
+{{--                    <div>--}}
+{{--                        <a href="{{route('front.category-product-get')}}">--}}
+{{--                            <picture>--}}
+{{--                                <source media="(min-width:768px)"--}}
+{{--                                        srcset="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanh2.png?v=139">--}}
+{{--                                <source media="(max-width:767px)"--}}
+{{--                                        srcset="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanhmobile2.png?v=139">--}}
+{{--                                <img src="//theme.hstatic.net/200000342937/1001030312/14/haidanhmuchinhanh2.png?v=139"--}}
+{{--                                     alt="">--}}
+{{--                            </picture>--}}
 
-                            <span class="boxtionmaybe">
-						<span class="boxtionmaybe_1"></span>
-						<span class="boxtionmaybe_2"></span>
+{{--                            <span class="boxtionmaybe">--}}
+{{--						<span class="boxtionmaybe_1"></span>--}}
+{{--						<span class="boxtionmaybe_2"></span>--}}
 
-					</span>
-                        </a>
-                    </div>
+{{--					</span>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
 
 
                 </div>
@@ -199,7 +199,7 @@
                     </div>
                     <div class="infothuonghieuflexz">
                         <div class="infothuonghieuflex1">
-                            <img src="/site/image/home/a25.jpg">
+                            <img src="/site/image/home/dua1.jpg">
                             <div class="helenposition">
 
                                 <div><img
@@ -244,19 +244,22 @@
                     <div class="headerogaflex1">
                         <div class="headerogaflex1_1">
                             <div>
-                                <img src="//theme.hstatic.net/200000342937/1001030312/14/uudiemshowicoimagebig1.png?v=139">
+                                <img src="/site/image/home/chom-chom-hoa.jpg" style="height: 450px">
                             </div>
-                            <div class="poselative">
-                                <img src="//theme.hstatic.net/200000342937/1001030312/14/uudiemshowicoimagebig2.png?v=139">
-                                <a href="https://www.youtube.com/watch?v=dg5-5djrOUo"
-                                   class="finvideomore cover-trigger fcy-video">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="12.24" height="16.583"
-                                         viewBox="0 0 12.24 16.583">
-                                        <path d="M17.57,7.966,6.119.07A.395.395,0,0,0,5.5.394V16.188a.395.395,0,0,0,.619.325l11.451-7.9a.395.395,0,0,0,0-.65Z"
-                                              transform="translate(-5.5 0)"></path>
-                                    </svg>
-                                </a>
+                            <div>
+                                <img src="/site/image/home/xoai.jpg" style="height: 450px">
                             </div>
+{{--                            <div class="poselative">--}}
+{{--                                <img src="//theme.hstatic.net/200000342937/1001030312/14/uudiemshowicoimagebig2.png?v=139">--}}
+{{--                                <a href="https://www.youtube.com/watch?v=dg5-5djrOUo"--}}
+{{--                                   class="finvideomore cover-trigger fcy-video">--}}
+{{--                                    <svg xmlns="http://www.w3.org/2000/svg" width="12.24" height="16.583"--}}
+{{--                                         viewBox="0 0 12.24 16.583">--}}
+{{--                                        <path d="M17.57,7.966,6.119.07A.395.395,0,0,0,5.5.394V16.188a.395.395,0,0,0,.619.325l11.451-7.9a.395.395,0,0,0,0-.65Z"--}}
+{{--                                              transform="translate(-5.5 0)"></path>--}}
+{{--                                    </svg>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
                     <div class="headerogaflex2">
@@ -446,194 +449,32 @@ Singapore</span>
                 </div>
 
                 <div class="slideraticle">
-
-
+                    @foreach($posts as $post)
                     <div>
                         <div class="itembg">
                             <div>
-                                <a href="	/blogs/suc-khoe-dinh-duong/rau-chan-vit-giam-huyet-ap-tu-nhien-an-toan">
-                                    <img src="//file.hstatic.net/200000342937/article/rau-chan-vit-giam-huyet-ap-tu-nhien-an-toan-thumnail_f342182d2597428f89c581edd999040b_large.png"/>
+                                <a href="{{route('front.get-post-detail', $post->slug)}}">
+                                    <img src="{{$post->image->path ?? ''}}"/>
                                 </a>
                             </div>
                             <div class="wrapwhite">
                                 <div class="blogtitle">
-                                    <div href="javascript:void(0)"><b>Sức khỏe dinh dưỡng</b></div>
-                                    <div class="datepost">12/04/2023</div>
+                                    <div href="javascript:void(0)"><b>{{$post->name}}</b></div>
+                                    <div class="datepost">{{\Illuminate\Support\Carbon::parse($post->created_at)->format('d/m/Y')}}</div>
                                 </div>
                                 <div>
                                     <a class="tztitle"
-                                       href="	/blogs/suc-khoe-dinh-duong/rau-chan-vit-giam-huyet-ap-tu-nhien-an-toan">
-                                        Rau Chân Vịt Giảm Huyết Áp Tự Nhiên, An Toàn
+                                       href="{{route('front.get-post-detail', $post->slug)}}">
+                                        {{$post->name}}
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-                    <div>
-                        <div class="itembg">
-                            <div>
-                                <a href="	/blogs/suc-khoe-dinh-duong/an-rau-chan-vit-co-tot-cho-ba-bau-khong">
-                                    <img src="//file.hstatic.net/200000342937/article/an-rau-chan-vit-co-tot-cho-ba-bau-khong_f836ddfc812a4915af74b3f32f64ce3a_large.jpg"/>
-                                </a>
-                            </div>
-                            <div class="wrapwhite">
-                                <div class="blogtitle">
-                                    <div href="javascript:void(0)"><b>Sức khỏe dinh dưỡng</b></div>
-                                    <div class="datepost">07/04/2023</div>
-                                </div>
-                                <div>
-                                    <a class="tztitle"
-                                       href="	/blogs/suc-khoe-dinh-duong/an-rau-chan-vit-co-tot-cho-ba-bau-khong">
-                                        Ăn Rau Chân Vịt Có Tốt Cho Bà Bầu Không?
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <div class="itembg">
-                            <div>
-                                <a href="	/blogs/suc-khoe-dinh-duong/chom-chom-xuat-khau-mon-qua-viet-nam-day-tiem-nang">
-                                    <img src="//file.hstatic.net/200000342937/article/chom-chom-xuat-khau-mon-qua-viet-nam-day-tiem-nang-thumnail_c11f05327fca4157ad5da9626621b595_large.png"/>
-                                </a>
-                            </div>
-                            <div class="wrapwhite">
-                                <div class="blogtitle">
-                                    <div href="javascript:void(0)"><b>Sức khỏe dinh dưỡng</b></div>
-                                    <div class="datepost">03/04/2023</div>
-                                </div>
-                                <div>
-                                    <a class="tztitle"
-                                       href="	/blogs/suc-khoe-dinh-duong/chom-chom-xuat-khau-mon-qua-viet-nam-day-tiem-nang">
-                                        Chôm Chôm Xuất Khẩu – “Món Quà” Việt Nam Đầy Tiềm Năng
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <div class="itembg">
-                            <div>
-                                <a href="	/blogs/suc-khoe-dinh-duong/chom-chom-thang-may-vao-mua-dinh-duong-tu-chom-chom">
-                                    <img src="//file.hstatic.net/200000342937/article/chom-chom-thang-may-vao-mua-dinh-duong-tu-chom-chom_891856732517463fb79ff54269d0e337_large.jpg"/>
-                                </a>
-                            </div>
-                            <div class="wrapwhite">
-                                <div class="blogtitle">
-                                    <div href="javascript:void(0)"><b>Sức khỏe dinh dưỡng</b></div>
-                                    <div class="datepost">21/03/2023</div>
-                                </div>
-                                <div>
-                                    <a class="tztitle"
-                                       href="	/blogs/suc-khoe-dinh-duong/chom-chom-thang-may-vao-mua-dinh-duong-tu-chom-chom">
-                                        Chôm Chôm Tháng Mấy Vào Mùa? Dinh Dưỡng Từ Chôm Chôm
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <div class="itembg">
-                            <div>
-                                <a href="	/blogs/suc-khoe-dinh-duong/cach-phan-biet-chom-chom-thai-va-chom-chom-thuong">
-                                    <img src="//file.hstatic.net/200000342937/article/cach-phan-biet-chom-chom-thai-va-chom-chom-thuong-thumnail_3dd76d439a0048229adf68fddeb836a0_large.png"/>
-                                </a>
-                            </div>
-                            <div class="wrapwhite">
-                                <div class="blogtitle">
-                                    <div href="javascript:void(0)"><b>Sức khỏe dinh dưỡng</b></div>
-                                    <div class="datepost">17/03/2023</div>
-                                </div>
-                                <div>
-                                    <a class="tztitle"
-                                       href="	/blogs/suc-khoe-dinh-duong/cach-phan-biet-chom-chom-thai-va-chom-chom-thuong">
-                                        Cách Phân Biệt Chôm Chôm Thái Và Chôm Chôm Thường
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <div class="itembg">
-                            <div>
-                                <a href="	/blogs/suc-khoe-dinh-duong/phan-biet-rau-diep-xoan-radicchio-va-bap-cai-do">
-                                    <img src="//file.hstatic.net/200000342937/article/phan-biet-rau-diep-xoan-radicchio-va-bap-cai-do-thumnail_4fe60d9a4e1540c1b72fc2fe50ee7052_large.png"/>
-                                </a>
-                            </div>
-                            <div class="wrapwhite">
-                                <div class="blogtitle">
-                                    <div href="javascript:void(0)"><b>Sức khỏe dinh dưỡng</b></div>
-                                    <div class="datepost">09/03/2023</div>
-                                </div>
-                                <div>
-                                    <a class="tztitle"
-                                       href="	/blogs/suc-khoe-dinh-duong/phan-biet-rau-diep-xoan-radicchio-va-bap-cai-do">
-                                        PHÂN BIỆT RAU DIẾP XOĂN RADICCHIO VÀ BẮP CẢI ĐỎ
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <div class="itembg">
-                            <div>
-                                <a href="	/blogs/suc-khoe-dinh-duong/rau-diep-xoan-radicchio-la-gi-dinh-duong-cua-radicchio">
-                                    <img src="//file.hstatic.net/200000342937/article/rau-diep-xoan-radicchio-la-gi-dinh-duong-cua-radicchio_0fb7e09138ce448eab79aece73784509_large.png"/>
-                                </a>
-                            </div>
-                            <div class="wrapwhite">
-                                <div class="blogtitle">
-                                    <div href="javascript:void(0)"><b>Sức khỏe dinh dưỡng</b></div>
-                                    <div class="datepost">08/03/2023</div>
-                                </div>
-                                <div>
-                                    <a class="tztitle"
-                                       href="	/blogs/suc-khoe-dinh-duong/rau-diep-xoan-radicchio-la-gi-dinh-duong-cua-radicchio">
-                                        RAU DIẾP XOĂN (RADICCHIO) LÀ GÌ? DINH DƯỠNG CỦA RADICCHIO
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <div class="itembg">
-                            <div>
-                                <a href="	/blogs/suc-khoe-dinh-duong/sau-rieng-dong-lanh-xuat-khau-mo-ra-co-hoi-tang-truong-kinh-te">
-                                    <img src="//file.hstatic.net/200000342937/article/au-rieng-dong-lanh-xuat-khau-mo-ra-co-hoi-tang-truong-kinh-te-thumnail_79f3ebf7cff24b48b26efc989e9251b2_large.jpg"/>
-                                </a>
-                            </div>
-                            <div class="wrapwhite">
-                                <div class="blogtitle">
-                                    <div href="javascript:void(0)"><b>Sức khỏe dinh dưỡng</b></div>
-                                    <div class="datepost">02/02/2023</div>
-                                </div>
-                                <div>
-                                    <a class="tztitle"
-                                       href="	/blogs/suc-khoe-dinh-duong/sau-rieng-dong-lanh-xuat-khau-mo-ra-co-hoi-tang-truong-kinh-te">
-                                        SẦU RIÊNG ĐÔNG LẠNH XUẤT KHẨU – MỞ RA CƠ HỘI TĂNG TRƯỞNG KINH TẾ
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    @endforeach
                 </div>
                 <div class="tintucviewmore">
-                    <a href="/blogs/suc-khoe-dinh-duong">Xem thêm</a>
+                    <a href="{{route('front.get-posts')}}">Xem thêm</a>
                 </div>
 
             </div>
@@ -643,199 +484,7 @@ Singapore</span>
     </section>
 
 
-    <section class="awe-section-9" id="awe-section-9">
 
-        <script src='/site/js/fancybox.umd.js' type='text/javascript'></script>
-        <link href='/site/css/fancybox.css' rel='stylesheet' type='text/css' media='all'/>
-        <link href='/site/css/a.scss.css?v=139' rel='stylesheet' type='text/css' media='all'/>
-        <div id="section__video">
-            <section class="section videos-gallery">
-                <div class="container">
-                    <div class="section-title a-center">
-
-                        <h2 title="Chia sẻ những điều tuyệt vời của chúng tôi"><a href="">Chia sẻ những điều tuyệt vời của
-                                chúng tôi</a></h2>
-
-
-                    </div>
-                    <div class="heading">
-                        <a rel="noopener noreferrer nofollow" target="_blank"
-                           href="https://www.youtube.com/watch?v=U2fv7vsJyyQ&t=32s" class="youtube-subcribe _blank">Xem thêm
-                            trên <img loading="lazy"
-                                      src="https://file.hstatic.net/200000112577/file/youtube_18028140f4254380abf40920001b9508.svg"
-                                      alt></a>
-                    </div>
-                    <div class="video-wrap">
-                        <div class="item-first item mianimage">
-                            <div class="cover">
-                            <span class="res ratio-16v9 full-widths"><img loading="lazy"
-                                                                          src="https://file.hstatic.net/200000342937/file/packing_house_0e49cd022073462e891e8b01e6756215.jpg"
-                                                                          alt=""></span>
-                                <span class="cover-icon movie"><i class="fa fa-play"></i></span>
-                                <a rel="nofollow" class="cover-trigger fcy-video"
-                                   href="https://www.youtube.com/watch?v=CV-_v1VUhOE&t=94s" aria-label="" data-url="#"></a>
-                            </div>
-                            <div class="cover-content">
-                                <h5><a rel="nofollow" class="fcy-video"
-                                       href="https://www.youtube.com/watch?v=CV-_v1VUhOE&t=94s" title=""></a></h5>
-                                <a href="https://www.youtube.com/watch?v=CV-_v1VUhOE&t=94s" class="view-more _blank"
-                                   title="Chi tiết"><span>Chi tiết</span></a>
-                            </div>
-                        </div>
-                        <div class="item-list checkheight">
-                            <ul>
-                                <li class="item">
-                                    <div class="cover">
-                                    <span class="res ratio-16v9"><img loading="lazy"
-                                                                      src="https://file.hstatic.net/200000342937/file/sweet_potatoes_06239f701e834a3cad422821b2413f34.jpg"
-                                                                      alt="SWEET POTATOES"></span>
-                                        <span class="cover-icon movie"><i class="fa fa-play"></i></span>
-                                        <a rel="nofollow" class="cover-trigger fcy-video"
-                                           href="https://www.youtube.com/watch?v=qs58RsnzzlQ" aria-label="SWEET POTATOES"
-                                           data-url="#"></a>
-                                    </div>
-                                    <div class="cover-content">
-                                        <h6><a rel="nofollow" class="fcy-video"
-                                               href="https://www.youtube.com/watch?v=qs58RsnzzlQ" title="SWEET POTATOES">SWEET
-                                                POTATOES</a></h6>
-                                        <a href="https://www.youtube.com/watch?v=qs58RsnzzlQ" class="view-more _blank"
-                                           title="Chi tiết"><span>Chi tiết</span></a>
-                                    </div>
-                                </li>
-                                <li class="item">
-                                    <div class="cover">
-                                    <span class="res ratio-16v9"><img loading="lazy"
-                                                                      src="https://file.hstatic.net/200000342937/file/untitled-1_a7039ed2bd0c45e182ed8cfb22d86c9c.jpg"
-                                                                      alt="DRAGON FRUIT"></span>
-                                        <span class="cover-icon movie"><i class="fa fa-play"></i></span>
-                                        <a rel="nofollow" class="cover-trigger fcy-video"
-                                           href="https://www.youtube.com/watch?v=U2fv7vsJyyQ" aria-label="DRAGON FRUIT"
-                                           data-url="#"></a>
-                                    </div>
-                                    <div class="cover-content">
-                                        <h6><a rel="nofollow" class="fcy-video"
-                                               href="https://www.youtube.com/watch?v=U2fv7vsJyyQ" title="DRAGON FRUIT">DRAGON
-                                                FRUIT</a></h6>
-                                        <a href="https://www.youtube.com/watch?v=U2fv7vsJyyQ" class="view-more _blank"
-                                           title="Chi tiết"><span>Chi tiết</span></a>
-                                    </div>
-                                </li>
-                                <li class="item">
-                                    <div class="cover">
-                                    <span class="res ratio-16v9"><img loading="lazy"
-                                                                      src="https://file.hstatic.net/200000342937/file/guava_d7d72a293c894856b87749f8a1df2dfb.jpg"
-                                                                      alt="GUAVA FARM"></span>
-                                        <span class="cover-icon movie"><i class="fa fa-play"></i></span>
-                                        <a rel="nofollow" class="cover-trigger fcy-video"
-                                           href="https://www.youtube.com/watch?v=rfJx2CnBgTw" aria-label="GUAVA FARM"
-                                           data-url="#"></a>
-                                    </div>
-                                    <div class="cover-content">
-                                        <h6><a rel="nofollow" class="fcy-video"
-                                               href="https://www.youtube.com/watch?v=rfJx2CnBgTw" title="GUAVA FARM">GUAVA
-                                                FARM</a></h6>
-                                        <a href="https://www.youtube.com/watch?v=rfJx2CnBgTw" class="view-more _blank"
-                                           title="Chi tiết"><span>Chi tiết</span></a>
-                                    </div>
-                                </li>
-                                <li class="item">
-                                    <div class="cover">
-                                    <span class="res ratio-16v9"><img loading="lazy"
-                                                                      src="https://file.hstatic.net/200000342937/file/young_coconut_4910b2f463a24fb29fb9ffabccaa4088.jpg"
-                                                                      alt="YOUNG COCONUT"></span>
-                                        <span class="cover-icon movie"><i class="fa fa-play"></i></span>
-                                        <a rel="nofollow" class="cover-trigger fcy-video"
-                                           href="https://www.youtube.com/watch?v=8ROVsOd1VvQ&t=7s"
-                                           aria-label="YOUNG COCONUT" data-url="#"></a>
-                                    </div>
-                                    <div class="cover-content">
-                                        <h6><a rel="nofollow" class="fcy-video"
-                                               href="https://www.youtube.com/watch?v=8ROVsOd1VvQ&t=7s"
-                                               title="YOUNG COCONUT">YOUNG COCONUT</a></h6>
-                                        <a href="https://www.youtube.com/watch?v=8ROVsOd1VvQ&t=7s" class="view-more _blank"
-                                           title="Chi tiết"><span>Chi tiết</span></a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-
-    </section>
-
-
-    <section class="awe-section-10" id="awe-section-10">
-        <div class="ganbannner">
-            <div>
-                <picture>
-                    <source media="(min-width:768px)"
-                            srcset="//theme.hstatic.net/200000342937/1001030312/14/bannerinfodes.png?v=139">
-                    <source media="(max-width:767px)"
-                            srcset="//theme.hstatic.net/200000342937/1001030312/14/bannerinfodesmobile.png?v=139">
-                    <img src="//theme.hstatic.net/200000342937/1001030312/14/bannerinfodes.png?v=139" alt="">
-                </picture>
-                <div class="positionladipos">
-                    <div class="title1"></div>
-                    <div class="title2">Sản phẩm Ant Farm đã có mặt <br>tại hệ thống siêu thị lớn trên toàn quốc</div>
-                    <div class="titlecontact">
-                        <a class="titlecontactone" href="https://antfarm.com.vn/pages/ant-farm-supermarket-list">
-                            Xem ngay
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-
-    <section class="awe-section-11" id="awe-section-11">
-
-        <div class="sliderbrandning">
-            <div class="container">
-                <div class="mirunflex">
-
-
-                    <div>
-                        <img src="//theme.hstatic.net/200000342937/1001030312/14/home_brand_logo_1.png?v=139">
-                    </div>
-
-
-                    <div>
-                        <img src="//theme.hstatic.net/200000342937/1001030312/14/home_brand_logo_2.png?v=139">
-                    </div>
-
-
-                    <div>
-                        <img src="//theme.hstatic.net/200000342937/1001030312/14/home_brand_logo_3.png?v=139">
-                    </div>
-
-
-                    <div>
-                        <img src="//theme.hstatic.net/200000342937/1001030312/14/home_brand_logo_4.png?v=139">
-                    </div>
-
-
-                    <div>
-                        <img src="//theme.hstatic.net/200000342937/1001030312/14/home_brand_logo_5.png?v=139">
-                    </div>
-
-
-                    <div>
-                        <img src="//theme.hstatic.net/200000342937/1001030312/14/home_brand_logo_6.png?v=139">
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="awe-section-12" id="awe-section-12">
 
 
         <div class="questionhigland">
@@ -845,7 +494,7 @@ Singapore</span>
 
                 </div>
                 <div class="title2">
-                    Hãy để Ant Farm phục vụ bạn tốt hơn!!
+                    Hãy để chúng tôi phục vụ bạn tốt hơn!!
                 </div>
 
                 <div class="homepagecontact">
