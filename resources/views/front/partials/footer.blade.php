@@ -652,7 +652,7 @@
 <!-- Plugin JS -->
 
 <script src='/site/js/appear.js?v=139' type='text/javascript'></script>
-<script src='/site/js/owl.carousel.min.js?v=139' type='text/javascript'></script>
+{{--<script src='/site/js/owl.carousel.min.js?v=139' type='text/javascript'></script>--}}
 <script src="/site/js/bootstrap.min.js"></script>
 
 <script src='/site/js/dl_function.js?v=139' type='text/javascript'></script>

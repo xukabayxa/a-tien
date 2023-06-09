@@ -12,23 +12,13 @@
 
     @include('front.partials.footer')
 <!-- Plugin JS -->
-<script>
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    })
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+{{--    <script src="/site/js/owl/owl.carousel.js"></script>--}}
+    <script src="/libs/owl/docs/assets/owlcarousel/owl.carousel.js"></script>
+
+    <script>
+
+
     $(".clearfix li").hover(
         function () {
             $(this).addClass('ngc-crumb-nav-cur');

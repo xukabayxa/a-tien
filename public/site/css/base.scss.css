@@ -11,7 +11,7 @@ Last update: 1/1/2017
 1. MIXIN
 2. TYPOGRAPHY VARIABLE
 3. VARIABLE
-4. RESERT	
+4. RESERT
 4.1 Gerenal
 4.2 Partials | Typography styles
 4.3 Use em() Sass function to declare font-size
@@ -27,10 +27,10 @@ Last update: 1/1/2017
 4.13 Error styles
 4.14 Input Group
 4.15 Module | Rich Text Editor
-5. HELP		
+5. HELP
 6. BUTTON
-7. POPUP		
-8. SWATCH VARIANT		
+7. POPUP
+8. SWATCH VARIANT
 9. CUSTOM OWL CAROUSEL
 10. TAB
 11. ACCORDION
@@ -2040,7 +2040,7 @@ label.error {
 /*============================================================================
 8. SWATCH VARIANT
 ==============================================================================*/
-/* 
+/*
 Swatches Styles
 */
 .swatch {
@@ -2371,8 +2371,8 @@ Swatches Styles
 .owl-carousel-inset:hover .owl-nav .owl-next {
   right: 25px; }
 
-.owl-carousel .owl-item img {
-  width: auto; }
+/*.owl-carousel .owl-item img {*/
+/*  width: auto; }*/
 
 .owl-carousel.bg-white .owl-nav .owl-next:before {
   background: #fff; }
