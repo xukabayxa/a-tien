@@ -130,11 +130,11 @@
 
                                     </div>
                                     <div class="footercontent22">
-                                        ĐT: {{$config->zalo}}<br>
+                                        ĐT: 0934489267<br>
 
                                     <div class="footercontent23">
 
-                                        {{$config->email}}
+                                        tgnimex@gmail.com
                                     </div>
 
 
@@ -550,6 +550,7 @@
     <ul class="addThis_listing">
         <li class="addThis_item">
             <a class="addThis_item--icon" href="tel:{{$config->hotline}}" rel="nofollow" aria-label="phone">
+{{--            <a class="addThis_item--icon" href="tel:0934489267" rel="nofollow" aria-label="phone">--}}
 
                 <img src="https://file.hstatic.net/200000342937/file/hotline-tk_3797f4f9227b476e9ed195c6ee344e25.gif"/>
 
@@ -557,7 +558,7 @@
             </a>
         </li>
         <li class="addThis_item">
-            <a class="addThis_item--icon" href="https://zalo.me/{{$config->zalo}}" target="_blank" rel="nofollow noreferrer"
+            <a class="addThis_item--icon" href="https://zalo.me/0934489267" target="_blank" rel="nofollow noreferrer"
                aria-label="zalo">
 
                 <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -606,7 +607,7 @@
 <div class="actionToolbar_mobile visible-xs  ">
     <ul class="actionToolbar_listing">
         <li>
-            <a href="tel:0977338686" rel="nofollow" aria-label="phone">
+            <a href="tel:0934489267" rel="nofollow" aria-label="phone">
 
                 <img class="toolbar_icon"
                      src="https://file.hstatic.net/200000342937/file/hotline-tk_3797f4f9227b476e9ed195c6ee344e25.gif"/>
@@ -614,7 +615,7 @@
             </a>
         </li>
         <li>
-            <a href="https://zalo.me/0977338686" target="_blank" rel="nofollow noreferrer" aria-label="zalo">
+            <a href="https://zalo.me/0934489267" target="_blank" rel="nofollow noreferrer" aria-label="zalo">
 
                 <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
                     <g>
@@ -632,7 +633,7 @@
 
         <!-- chatbot harafunnel -->
         <li class="actionToolbar_chatbot">
-            <a href="https://fb.com/antfarm.com.vn" target="_blank" rel="nofollow noreferrer" aria-label="messenger">
+            <a href="https://fb.com/" target="_blank" rel="nofollow noreferrer" aria-label="messenger">
 				<span class="messenger_absolute ">
 
 				<img class="toolbar_icon"

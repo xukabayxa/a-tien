@@ -24,7 +24,7 @@
     <meta name="facebook-domain-verification" content="x2sp9pxqdokqb2dbxhyhxh1mv5x845"/>
     <!-- ================= Favicon ================== -->
 
-    <link rel="icon" href="/site/image/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/site/image/logo2.jpg" type="image/x-icon"/>
 
     <!-- Facebook Open Graph meta tags -->
 

@@ -142,14 +142,16 @@
                             </div>
                         </div>
                         <div class="infothuonghieuflex2">
-                            Thành lập tháng 3/2010, Ant Farm là một trong những&nbsp;<em>cô</em>ng ty uy tín hàng đầu trong
-                            lĩnh vực xuất nhập khẩu nông sản. Sản phẩm của Ant Farm đã có mặt nhiều thị trường quốc tế như:&nbsp;Đông
-                            Nam Á, Trung Đông, Châu Âu, thậm chí cả những thị trường khó tính như&nbsp;<em>Mỹ</em>, Canada,
-                            Úc…
+
+                            TGN Natural là thương hiệu của Công ty Thương mại và Xuất nhập khẩu TGN. <br>
+                            Lĩnh vực mũi nhọn là xuất khẩu nông sản với sản phẩm chủ lực là trái dừa tươi và trái cây nhiệt đới vùng ĐBSCL. <br>
+
+                            Được thành lập vào năm 2023, Công ty Thương mại và Xuất nhập khẩu TGN sẽ là một trong những nhà xuất khẩu rau quả hàng đầu với mục tiêu mang từ Việt Nam ra thế giới những sản phẩm chất lượng cao nhất được trồng trên mảnh đất của chúng ta.
+                            Chúng tôi có chuyên môn về cả trái cây tươi và đông lạnh. Trong suốt quá trình tồn tại của mình, chúng tôi luôn giữ vững cam kết với khách hàng về các sản phẩm chất lượng cao xuất khẩu sang EU, Mỹ, CHÂU Á, Trung Đông,…
+
+
                             <div>&nbsp;</div>
-                            <div><a target="_blank"
-                                    href="https://antfarm.com.vn/pages/about-en?view=aboutus_new.vi"><strong>Đọc thêm
-                                        more</strong></a></div>
+
                         </div>
                     </div>
                 </div>

@@ -102,8 +102,8 @@
                     <div class="logo inline-block">
 
                         <a href="/" class="logo-wrapper ">
-                            <img src="/site/image/logo.jpg"
-                                 alt="logo Ant Farm - Trái cây - Rau nhập khẩu - Nông sản Việt">
+                            <img src="/site/image/logo2.jpg"
+                                 alt="logo TGNIMEX - Trái cây - Rau nhập khẩu - Nông sản Việt">
                         </a>
 
                     </div>
@@ -132,8 +132,8 @@
                         <div class="logoin">
 
                             <a href="/" class="logo-wrapper ">
-                                <img src="/site/image/logo.jpg"
-                                     alt="logo Ant Farm - Trái cây - Rau nhập khẩu - Nông sản Việt">
+                                <img src="/site/image/logo2.jpg"
+                                     alt="logo TGNIMEX - Trái cây - Rau nhập khẩu - Nông sản Việt">
                             </a>
 
                         </div>
