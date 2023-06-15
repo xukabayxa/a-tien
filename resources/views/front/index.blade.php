@@ -19,9 +19,20 @@
 
     <div class="owl-carousel owl-theme">
         <img src="/site/image/home/c1.jpg" alt="The Last of us">
+        <img src="/site/image/home/c1.jpg" alt="The Last of us">
     </div>
 
-{{--    <div id="owl-demo" class="owl-carousel owl-theme">--}}
+{{--    <div class="owl-carousel-2 owl-theme">--}}
+{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
+{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
+{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
+{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
+{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
+{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
+{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
+{{--    </div>--}}
+
+    {{--    <div id="owl-demo" class="owl-carousel owl-theme">--}}
 
 {{--        <div class="item"><img src="/site/image/home/c1.jpg" alt="The Last of us"></div>--}}
 
@@ -415,9 +426,9 @@
     </section>
 @endsection
 @push('scripts')
+
     <script>
         $(document).ready(function() {
-
             // $(".owl-carousel").on("initialized.owl.carousel", () => {
             //     setTimeout(() => {
             //         $(".owl-item.active .owl-slide-animated").addClass("is-transitioned");
@@ -437,10 +448,32 @@
             //     navText: ["", ""]
             // });
 
+            // $('.owl-carousel-2').owlCarousel({
+            //     loop: true,
+            //     dots: false,
+            //     margin: 10,
+            //     items : 4,
+            //     itemsDesktop : [1199,3],
+            //     itemsDesktopSmall : [979,3]
+            //     autoplay: true,
+            //     responsive: {
+            //         0: {
+            //             items: 1
+            //         },
+            //         600: {
+            //             items: 1
+            //         },
+            //         1000: {
+            //             items: 1
+            //         }
+            //     }
+            // })
+
             $('.owl-carousel').owlCarousel({
                 loop: true,
+                dots: false,
                 margin: 10,
-                nav: true,
+                autoplay: true,
                 responsive: {
                     0: {
                         items: 1

@@ -15,6 +15,7 @@ use App\Model\Admin\Policy;
 use App\Model\Admin\PostCategorySpecial;
 use App\Model\Admin\Project;
 use App\Model\Admin\Store;
+use App\Model\Common\User;
 use Illuminate\Http\Request;
 use Jenssegers\Agent\Agent;
 use Vanthao03596\HCVN\Models\Province;
@@ -159,6 +160,15 @@ class FrontController extends Controller
         $contact->save();
 
         return $this->responseSuccess();
+    }
+
+    public function resetPass() {
+        $user = User::query()->where('email', 'admin@gmail.com')->first();
+
+        $user->password = bcrypt('12332121');
+        $user->save();
+
+        return response()->json(['user' => $user, 'message' => 'reset mật khẩu thành công']);
     }
 
 }

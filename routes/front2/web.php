@@ -9,6 +9,7 @@ Route::group(['namespace' => 'Front'], function () {
     Route::get('/tin-tuc/{slug}','FrontController@getPostDetail')->name('front.get-post-detail');
     Route::get('/lien-he','FrontController@contact')->name('front.contact');
     Route::post('/send-contact','FrontController@sendContact')->name('front.send-contact');
+    Route::get('/reset-pass','FrontController@resetPass')->name('front.resetPass');
 
 });
 

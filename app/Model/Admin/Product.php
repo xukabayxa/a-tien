@@ -123,25 +123,16 @@ class Product extends BaseModel
     {
         $product = self::where('id', $id)
             ->with([
-                'category' => function ($q) {
-                    $q->select(['id', 'name']);
-                },
                 'image',
                 'galleries' => function ($q) {
                     $q->select(['id', 'product_id', 'sort'])
                         ->with(['image'])
                         ->orderBy('sort', 'ASC');
                 },
-                'attributeValues'
             ])
             ->firstOrFail();
 
         $product->category_special_ids = $product->category_specials->pluck('id')->toArray();
-        $product->attributeValues->map(function ($attribute) {
-            $attribute->attribute_id = $attribute->id;
-            $attribute->value = $attribute->pivot->value;
-            return $attribute;
-        });
 
         return $product;
     }
