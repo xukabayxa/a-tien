@@ -44,7 +44,7 @@ Admin Panel - {{ $config->web_title }}
         <!-- small box -->
         <div class="small-box bg-warning">
             <div class="inner">
-                <h3 style="color: #F58220">{{ $data_analytics['active'] }}</h3>
+                <h3 style="color: #F58220"></h3>
                 <p>Khách đang online</p>
             </div>
             <div class="icon">
@@ -57,7 +57,7 @@ Admin Panel - {{ $config->web_title }}
         <!-- small box -->
         <div class="small-box bg-danger">
             <div class="inner">
-                <h3 style="color: #F58220">{{ isset($data_analytics['today']) ? $data_analytics['today'][0]['visitors'] : 0 }}</h3>
+                <h3 style="color: #F58220"></h3>
                 <p> Khách trong ngày </p>
             </div>
             <div class="icon">
@@ -151,33 +151,21 @@ Admin Panel - {{ $config->web_title }}
                         <td>Di động</td>
                         <td>Máy tính bảng</td>
                     </tr>
-                    @if(!$data_analytics['devices']->isEmpty())
+
                     <tr>
                         <td style="font-weight: bold;">
 
-                            @if(isset($data_analytics['devices'][0]))
-                            {{ round(($data_analytics['devices'][0]['count']/$data_analytics['devices']->sum('count'))*100, 2) }} %
-                            @else
-                            0 %
-                            @endif
+
                         </td>
                         <td style="font-weight: bold;">
-                            @if(isset($data_analytics['devices'][1]))
-                            {{ round(($data_analytics['devices'][1]['count']/$data_analytics['devices']->sum('count'))*100, 2) }} %
-                            @else
-                            0 %
-                            @endif
+
                         </td>
                         <td style="font-weight: bold;">
-                            @if(isset($data_analytics['devices'][2]))
-                            {{ round(($data_analytics['devices'][2]['count']/$data_analytics['devices']->sum('count'))*100, 2) }} %
-                            @else
-                            0 %
-                            @endif
+
                         </td>
 
                     </tr>
-                    @endif
+
                 </table>
             </div>
             <!-- /.card-body -->
@@ -205,13 +193,7 @@ Admin Panel - {{ $config->web_title }}
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($data_analytics['top_visited_pages'] as $item)
-                        <tr>
-                            <td>{{ $item['url'] }}</td>
-                            <td>{{ $item['pageTitle'] }}</td>
-                            <td>{{ $item['pageViews'] }}</td>
-                        </tr>
-                        @endforeach
+
                     </tbody>
                 </table>
             </div>
@@ -298,9 +280,7 @@ var today = new Date();
     Morris.Donut({
     element: 'devices-chart',
     data: [
-    @foreach ($data_analytics['devices'] as $item)
-    { label: "{{ $item['device'] }}", value: {{ $item['count'] }} },
-    @endforeach
+
     ]
   });
 
@@ -308,12 +288,7 @@ var today = new Date();
     element: 'organic-chart',
     behaveLikeLine: true,
     data: [
-    @foreach ($data_analytics['organic_search'] as $key => $item)
-    { source: '{{ $item['source'] }}', total: {{ $item['count'] }} },
-    @if($key > 4)
-    @break
-    @endif
-    @endforeach
+
     ],
     xkey: 'source',
     ykeys: ['total'],
@@ -328,9 +303,7 @@ var today = new Date();
     element: 'area-chart',
     behaveLikeLine: true,
     data: [
-    @foreach ($data_analytics['total_page_views'] as $key=>$item)
-    { day: '{{  \Carbon\Carbon::parse($item['date'])->format('d/m') }}', visitors: {{ $item['visitors'] }}, pageViews: {{ $item['pageViews'] }} },
-    @endforeach
+
     ],
     xkey: 'day',
     ykeys: ['visitors', 'pageViews'],
