@@ -8,10 +8,14 @@
 
 @endsection
 <style>
-    #owl-demo .item img{
-        display: block;
-        width: 100%;
-        height: auto;
+    #owl-demo .item{
+        padding: 30px 0px;
+        margin: 10px;
+        color: #FFF;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        text-align: center;
     }
 </style>
 @section('content')
@@ -22,22 +26,6 @@
         <img src="/site/image/home/c1.jpg" alt="The Last of us">
     </div>
 
-{{--    <div class="owl-carousel-2 owl-theme">--}}
-{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
-{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
-{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
-{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
-{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
-{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
-{{--        <img src="/site/image/home/c1.jpg" alt="The Last of us">--}}
-{{--    </div>--}}
-
-    {{--    <div id="owl-demo" class="owl-carousel owl-theme">--}}
-
-{{--        <div class="item"><img src="/site/image/home/c1.jpg" alt="The Last of us"></div>--}}
-
-
-{{--    </div>--}}
 
     <section class="awe-section-1" id="awe-section-1">
 
@@ -190,17 +178,6 @@
                             <div>
                                 <img src="/site/image/home/b2.png" style="height: 450px">
                             </div>
-{{--                            <div class="poselative">--}}
-{{--                                <img src="//theme.hstatic.net/200000342937/1001030312/14/uudiemshowicoimagebig2.png?v=139">--}}
-{{--                                <a href="https://www.youtube.com/watch?v=dg5-5djrOUo"--}}
-{{--                                   class="finvideomore cover-trigger fcy-video">--}}
-{{--                                    <svg xmlns="http://www.w3.org/2000/svg" width="12.24" height="16.583"--}}
-{{--                                         viewBox="0 0 12.24 16.583">--}}
-{{--                                        <path d="M17.57,7.966,6.119.07A.395.395,0,0,0,5.5.394V16.188a.395.395,0,0,0,.619.325l11.451-7.9a.395.395,0,0,0,0-.65Z"--}}
-{{--                                              transform="translate(-5.5 0)"></path>--}}
-{{--                                    </svg>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
                         </div>
                     </div>
                     <div class="headerogaflex2">
@@ -214,6 +191,30 @@
                                     <h3><b>Dinh Dưỡng Nhân Đôi</b></h3>
                                     <div>Giá trị dinh dưỡng cao, mang đến hương vị hoàn hảo cho bữa ăn.</div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="headerogaflex">
+                    <div class="headerogaflex2">
+                        <div class="headerogaflex2flex">
+                            <h3><strong>Mụn dừa ép viên</strong></h3>
+                            <div><p>Mụn dừa ép bánh là sản phẩm bổ biến, tốt cho trồng cây non, rau mầm, rau ăn lá hoặc trộn với giá thể – đất trồng khác. Mụn dừa có khả năng ngậm nước tốt, thân viện với môi trường, tiện dụng và kinh tế.</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="headerogaflex1">
+                        <div class="headerogaflex1_1">
+                            <div>
+                                <img src="/site/image/home/zz.png" style="height: 450px">
+                            </div>
+                            <div>
+                                <img src="/site/image/home/ii.jpg" style="height: 450px">
                             </div>
                         </div>
                     </div>
@@ -287,6 +288,24 @@
         <div class="questionhigland">
 
             <div class="container">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="/site/image/home/n1.jpg" style="height: 260px">
+                    </div>
+                    <div class="item">
+                        <img src="/site/image/home/n2.jpg" style="height: 260px">
+                    </div>
+                    <div class="item">
+                        <img src="/site/image/home/n3.jpg" style="height: 260px">
+                    </div>
+                    <div class="item">
+                        <img src="/site/image/home/n4.png" style="height: 260px">
+                    </div>
+                    <div class="item">
+                        <img src="/site/image/home/n5.jpg" style="height: 260px">
+                    </div>
+                </div>
+
                 <div class="title1">
 
                 </div>
@@ -423,51 +442,21 @@
         </script>
 
 
+
     </section>
 @endsection
 @push('scripts')
-
     <script>
         $(document).ready(function() {
-            // $(".owl-carousel").on("initialized.owl.carousel", () => {
-            //     setTimeout(() => {
-            //         $(".owl-item.active .owl-slide-animated").addClass("is-transitioned");
-            //         $("section").show();
-            //     }, 50);
-            // });
-            //
-            // const $owlCarousel = $(".owl-carousel").owlCarousel({
-            //     items: 1,
-            //     loop: true,
-            //     nav: true,
-            //     slideSpeed: 450,
-            //     autoplay: true,
-            //     animateIn: 'fadeIn',
-            //     animateOut: 'fadeOut',
-            //     autoplayTimeout: 2000,
-            //     navText: ["", ""]
-            // });
+            $("#owl-demo").owlCarousel({
+                loop: true,
+                dots: false,
+                autoPlay: true, //Set AutoPlay to 3 seconds
+                items : 4,
+                itemsDesktop : [1199,3],
+                itemsDesktopSmall : [979,3]
 
-            // $('.owl-carousel-2').owlCarousel({
-            //     loop: true,
-            //     dots: false,
-            //     margin: 10,
-            //     items : 4,
-            //     itemsDesktop : [1199,3],
-            //     itemsDesktopSmall : [979,3]
-            //     autoplay: true,
-            //     responsive: {
-            //         0: {
-            //             items: 1
-            //         },
-            //         600: {
-            //             items: 1
-            //         },
-            //         1000: {
-            //             items: 1
-            //         }
-            //     }
-            // })
+            });
 
             $('.owl-carousel').owlCarousel({
                 loop: true,
@@ -487,20 +476,7 @@
                 }
             })
 
-            // $("#owl-demo").owlCarousel({
-            //
-            //     navigation : true, // Show next and prev buttons
-            //
-            //     slideSpeed : 300,
-            //     paginationSpeed : 400,
-            //
-            //     items : 1,
-            //     itemsDesktop : false,
-            //     itemsDesktopSmall : false,
-            //     itemsTablet: false,
-            //     itemsMobile : false
-            //
-            // });
+
 
         });
     </script>
