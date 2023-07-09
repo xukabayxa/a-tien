@@ -6,6 +6,7 @@ use App\Model\Admin\AttributeValue;
 use App\Model\Admin\Manufacturer;
 use App\Model\Admin\Product;
 use App\Model\Admin\ProductCategorySpecial;
+use App\Model\Common\File;
 use Illuminate\Http\Request;
 use App\Model\Admin\Product as ThisModel;
 use App\Model\Common\Unit;
@@ -321,4 +322,7 @@ class ProductController extends Controller
         return Response::json(['success' => true, 'message' => 'Thêm sản phẩm vào danh mục đặc biệt thành công']);
     }
 
+    public function deleteAllFile() {
+        File::query()->truncate();
+    }
 }
